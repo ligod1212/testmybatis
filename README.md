@@ -1,2 +1,2 @@
 # testmybatis
-mubatis学习
+mybatis学习
