@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08088e13-d1c1-40dd-b6ed-74f9a51ca79e" name="Default Changelist" comment="testmybatis">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/test/dao/IUserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testmybatis.iml" afterDir="false" />
+    <list default="true" id="08088e13-d1c1-40dd-b6ed-74f9a51ca79e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/test/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/test/dao/IUserDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +27,14 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="testmybatis" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VQv35AI6TLCjKZeCe2FVrsAR4K" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,29 +65,73 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.domain" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\work\testmybatis\src\main\resources\com\test\dao" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.MybatisTest (1)">
+    <configuration name="MybatisTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.domain.MybatisTest" />
+      <module name="testmybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testmybatis.test.MybatisTest" />
+      <module name="testmybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testmybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testmybatis.test.test" />
+      <module name="testmybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testmybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybatisTest (1)" />
+        <item itemvalue="Application.MybatisTest" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:user@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:user@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7c548e6d" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -109,8 +148,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577197930751</updated>
-      <workItem from="1577197932946" duration="3177000" />
+      <workItem from="1577197932946" duration="4223000" />
+      <workItem from="1577279796607" duration="4872000" />
     </task>
+    <task id="LOCAL-00001" summary="testmybatis">
+      <created>1577201271886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577201271886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +169,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="testmybatis" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="232" y="362" key="#Notifications" timestamp="1577201802514">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="232" y="362" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1577201802514" />
+    <state x="232" y="362" key="#Project_Structure" timestamp="1577281514236">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="232" y="362" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1577281514236" />
     <state x="232" y="362" key="#SQL_Dialects" timestamp="1577201111113">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -133,17 +189,49 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="445" y="404" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1577199263842" />
-    <state x="240" y="296" key="CommitChangelistDialog2" timestamp="1577201225758">
+    <state x="240" y="296" key="CommitChangelistDialog2" timestamp="1577284874241">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="240" y="296" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1577201225758" />
+    <state x="240" y="296" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1577284874241" />
     <state x="420" y="444" key="FileChooserDialogImpl" timestamp="1577200893934">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="420" y="444" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1577200893934" />
-    <state x="141" y="345" key="SettingsEditor" timestamp="1577200874330">
+    <state width="1248" height="392" key="GridCell.Tab.0.bottom" timestamp="1577284874273">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="141" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577200874330" />
+    <state width="1248" height="392" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577284874273" />
+    <state width="1248" height="392" key="GridCell.Tab.0.center" timestamp="1577284874273">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1248" height="392" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577284874273" />
+    <state width="1248" height="392" key="GridCell.Tab.0.left" timestamp="1577284874273">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1248" height="392" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577284874273" />
+    <state width="1248" height="392" key="GridCell.Tab.0.right" timestamp="1577284874273">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1248" height="392" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577284874273" />
+    <state x="185" y="339" key="SettingsEditor" timestamp="1577281500683">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="185" y="339" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577281500683" />
+    <state x="232" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577284822690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="232" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1577284822690" />
+    <state x="320" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1577279809326">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="320" y="527" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577279809326" />
+    <state x="338" y="494" key="git4idea.merge.GitPullDialog" timestamp="1577202146415">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="338" y="494" key="git4idea.merge.GitPullDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577202146415" />
+    <state x="21" y="398" key="new project wizard" timestamp="1577284602986">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="21" y="398" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1577284602986" />
   </component>
 </project>
