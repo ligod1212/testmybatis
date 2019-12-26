@@ -11,6 +11,9 @@ import java.util.List;
  **/
 public interface IUserDao {
 
-    @Select("select * from user ")
+   // @Select("select * from user ")
     List<User> findAll();
+
+    void saveUser(User user);
+
 }

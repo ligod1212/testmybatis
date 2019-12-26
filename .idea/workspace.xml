@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08088e13-d1c1-40dd-b6ed-74f9a51ca79e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/dao/IUserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/test/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testmybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmybatis/test/MybatisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMapConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/dao/IUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/dao/IUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/domain/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/domain/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/testmybatis/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testmybatis/test/MybatisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,10 +70,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -82,7 +83,7 @@
       <recent name="D:\work\testmybatis\src\main\resources\com\test\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MybatisTest">
+  <component name="RunManager" selected="JUnit.MybatisTest.testFindAll">
     <configuration name="MybatisTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.domain.MybatisTest" />
       <module name="testmybatis" />
@@ -122,10 +123,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testmybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testmybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testmybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.testmybatis.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testmybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testmybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testmybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.testmybatis.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MybatisTest" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
+        <item itemvalue="JUnit.MybatisTest.testSave" />
         <item itemvalue="Application.MybatisTest (1)" />
+        <item itemvalue="Application.MybatisTest" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -153,7 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577197930751</updated>
       <workItem from="1577197932946" duration="4223000" />
-      <workItem from="1577279796607" duration="7547000" />
+      <workItem from="1577279796607" duration="7611000" />
+      <workItem from="1577367977921" duration="4750000" />
     </task>
     <task id="LOCAL-00001" summary="testmybatis">
       <created>1577201271886</created>
@@ -169,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577284906739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testmybatis">
+      <created>1577287861743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577287861743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,10 +227,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="232" y="362" key="#Notifications/0.0.2560.1400@0.0.2560.1400" timestamp="1577201802514" />
-    <state x="232" y="362" key="#Project_Structure" timestamp="1577281514236">
+    <state x="232" y="362" key="#Project_Structure" timestamp="1577372776626">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="232" y="362" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1577281514236" />
+    <state x="232" y="362" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1577372776626" />
     <state x="232" y="362" key="#SQL_Dialects" timestamp="1577201111113">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -200,42 +243,58 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="445" y="404" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1577199263842" />
-    <state x="240" y="296" key="CommitChangelistDialog2" timestamp="1577284901112">
+    <state x="240" y="296" key="CommitChangelistDialog2" timestamp="1577287855636">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="240" y="296" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1577284901112" />
+    <state x="240" y="296" key="CommitChangelistDialog2/0.0.2560.1400@0.0.2560.1400" timestamp="1577287855636" />
     <state x="420" y="444" key="FileChooserDialogImpl" timestamp="1577200893934">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="420" y="444" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1577200893934" />
-    <state width="1248" height="392" key="GridCell.Tab.0.bottom" timestamp="1577286114553">
+    <state width="1248" height="392" key="GridCell.Tab.0.bottom" timestamp="1577372792753">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1248" height="392" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577286114553" />
-    <state width="1248" height="392" key="GridCell.Tab.0.center" timestamp="1577286114552">
+    <state width="1248" height="392" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577372792753" />
+    <state width="1248" height="392" key="GridCell.Tab.0.center" timestamp="1577372792752">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1248" height="392" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577286114552" />
-    <state width="1248" height="392" key="GridCell.Tab.0.left" timestamp="1577286114552">
+    <state width="1248" height="392" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577372792752" />
+    <state width="1248" height="392" key="GridCell.Tab.0.left" timestamp="1577372792752">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1248" height="392" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577286114552" />
-    <state width="1248" height="392" key="GridCell.Tab.0.right" timestamp="1577286114553">
+    <state width="1248" height="392" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577372792752" />
+    <state width="1248" height="392" key="GridCell.Tab.0.right" timestamp="1577372792752">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1248" height="392" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577286114553" />
-    <state x="185" y="339" key="SettingsEditor" timestamp="1577286741723">
+    <state width="1248" height="392" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577372792752" />
+    <state width="1248" height="478" key="GridCell.Tab.1.bottom" timestamp="1577372632458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="185" y="339" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577286741723" />
-    <state x="232" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577284916526">
+    <state width="1248" height="478" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1577372632458" />
+    <state width="1248" height="478" key="GridCell.Tab.1.center" timestamp="1577372632458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="232" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1577284916526" />
-    <state x="320" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1577279809326">
+    <state width="1248" height="478" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1577372632458" />
+    <state width="1248" height="478" key="GridCell.Tab.1.left" timestamp="1577372632458">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="320" y="527" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577279809326" />
+    <state width="1248" height="478" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1577372632458" />
+    <state width="1248" height="478" key="GridCell.Tab.1.right" timestamp="1577372632458">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1248" height="478" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1577372632458" />
+    <state x="185" y="339" key="SettingsEditor" timestamp="1577372746352">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="185" y="339" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1577372746352" />
+    <state x="232" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577287867681">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="232" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1577287867681" />
+    <state x="320" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1577367981104">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="320" y="527" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1577367981104" />
     <state x="338" y="494" key="git4idea.merge.GitPullDialog" timestamp="1577202146415">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -244,5 +303,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="21" y="398" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1577284602986" />
+    <state x="296" y="360" width="670" height="676" key="search.everywhere.popup" timestamp="1577371550070">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="296" y="360" width="670" height="676" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1577371550070" />
   </component>
 </project>
