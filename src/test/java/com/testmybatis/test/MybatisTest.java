@@ -40,6 +40,8 @@ public class MybatisTest {
 
     @After//测试方法之后执行
     public void destroy()throws Exception{
+        //提交事务
+        sqlSession.commit();
         //6.释放资源
         sqlSession.close();
         in.close();
@@ -61,17 +63,73 @@ public class MybatisTest {
     @Test
     public void testSave(){
         User user = new User();
-        user.setUsername("lili");
+        user.setUsername("死神");
         user.setAddress("beijing");
         user.setSex("男");
         user.setBirthday(new Date());
+        System.out.println("after:"+user);
 
         //5.使用代理对象执行方法
         userDao.saveUser(user);
-
-        //提交事务
-        sqlSession.commit();
+        System.out.println("before"+user);
     }
+
+    /**
+     * 测试更新操作
+     */
+    @Test
+    public void testUpdate(){
+        User user = new User();
+        user.setId(2);
+        user.setUsername("李莉");
+
+        //5.使用代理对象执行方法
+        userDao.updateUser(user);
+    }
+
+    /**
+     * 测试删除操作
+     */
+    @Test
+    public void testDelete(){
+        //5.使用代理对象执行方法
+        userDao.deleteUser(5);
+    }
+
+    /**
+     * 测试查询一条
+     */
+    @Test
+    public void testFindOne() {
+        //5.使用代理对象执行方法
+        User user = userDao.findById(1);
+        System.out.println(user);
+    }
+
+    /**
+     * 测试模糊查询
+     */
+    @Test
+    public void testFindByName() {
+        //5.使用代理对象执行方法
+        List<User> users = userDao.findByName("%张%");
+        for (User user : users){
+            System.out.println(users);
+        }
+
+    }
+
+    /**
+     * 测试查询总数
+     */
+    @Test
+    public void testFindTotal() {
+        //5.使用代理对象执行方法
+        int count = userDao.findTotal();
+        System.out.println(count);
+    }
+
+
 
 //    public static void main(String[] args)throws Exception {
 //        //1.读取配置文化
